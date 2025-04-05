@@ -1,4 +1,8 @@
 {
+  "version": 2,
+  "buildCommand": "CI=false GENERATE_SOURCEMAP=false npx react-scripts build",
+  "devCommand": "react-scripts start",
+  "outputDirectory": "build",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
